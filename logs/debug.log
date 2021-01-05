@@ -1,0 +1,901 @@
+2020-11-30 16:55:42 Notice: Notice (8): Undefined variable: conexao in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 16:56:24 Notice: Notice (8): Undefined variable: conexao in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 16:56:28 Notice: Notice (8): Undefined variable: conexao in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 16:58:28 Notice: Notice (8): Undefined variable: localhost in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 16:59:16 Notice: Notice (8): Undefined variable: root in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 7
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 17:01:44 Notice: Notice (8): Undefined variable: conta_linhas in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 31]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 31
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 17:02:48 Notice: Notice (8): Undefined variable: resultado in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 9]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 9
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 17:03:35 Notice: Notice (8): Undefined variable: conta_linhas in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 31]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 31
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 17:52:30 Notice: Notice (8): Undefined variable: resultado in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 38]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 38
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 18:11:58 Notice: Notice (8): Undefined variable: num_rows_users in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 25]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 25
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 18:11:58 Notice: Notice (8): Undefined variable: num_rows_produtos in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 41]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 41
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-11-30 18:11:58 Notice: Notice (8): Undefined variable: num_rows_catprod in [C:\wamp64\www\admin\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 56]
+Request URL: /
+Referer URL: http://localhost/admin/users
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\vendor\maiconpinto\cakephp-adminlte-theme\templates\Pages\home.php, line 56
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+App\Controller\PagesController::display() - APP/Controller\PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 16:39:59 Notice: Notice (8): Trying to get property 'role' of non-object in [C:\wamp64\www\admin\templates\Usuarios\view.php, line 30]
+Request URL: /usuarios/view/1
+Referer URL: http://localhost/admin/usuarios
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Usuarios\view.php, line 30
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:03 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Fusuarios
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:17 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login
+Referer URL: http://localhost/admin/users/login?redirect=%2Fusuarios
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:19 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login
+Referer URL: http://localhost/admin/users/login?redirect=%2Fusuarios
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:21 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:38 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:51:40 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:53:53 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:56:54 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:56:57 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 29]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 29
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:58:03 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 21]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 18:58:53 Notice: Notice (8): Undefined variable: usuario in [C:\wamp64\www\admin\templates\Users\login.php, line 21]
+Request URL: /users/login?redirect=%2Froles
+Referer URL: http://localhost/admin/users/login?redirect=%2Froles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Users\login.php, line 21
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 164
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 20:10:55 Notice: Notice (8): compact(): Undefined variable: usuario in [C:\wamp64\www\admin\src\Controller\UsuariosController.php, line 26]
+Request URL: /usuarios
+Referer URL: http://localhost/admin/roles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+compact - [internal], line ??
+App\Controller\UsuariosController::index() - APP/Controller\UsuariosController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 20:13:35 Notice: Notice (8): compact(): Undefined variable: usuario in [C:\wamp64\www\admin\src\Controller\UsuariosController.php, line 26]
+Request URL: /usuarios
+Referer URL: http://localhost/admin/roles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+compact - [internal], line ??
+App\Controller\UsuariosController::index() - APP/Controller\UsuariosController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 20:14:06 Notice: Notice (8): compact(): Undefined variable: usuario in [C:\wamp64\www\admin\src\Controller\UsuariosController.php, line 26]
+Request URL: /usuarios
+Referer URL: http://localhost/admin/roles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+compact - [internal], line ??
+App\Controller\UsuariosController::index() - APP/Controller\UsuariosController.php, line 26
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 529
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 20:19:11 Notice: Notice (8): Undefined variable: usuarios in [C:\wamp64\www\admin\templates\Usuarios\index.php, line 46]
+Request URL: /usuarios
+Referer URL: http://localhost/admin/roles
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Usuarios\index.php, line 46
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-01 20:22:23 Notice: Notice (8): Undefined variable: usuarios in [C:\wamp64\www\admin\templates\Usuarios\index.php, line 46]
+Request URL: /usuarios
+Referer URL: http://localhost/admin/CategoriasProdutos
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - ROOT\templates\Usuarios\index.php, line 46
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1176
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Cake\View\View::render() - CORE\src\View\View.php, line 764
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 696
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 538
+Cake\Controller\ControllerFactory::invoke() - CORE\src\Controller\ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+

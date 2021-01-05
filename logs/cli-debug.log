@@ -1,0 +1,240 @@
+2020-11-30 14:29:33 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Notice: Notice (8): Undefined index: details in [C:\wamp64\www\admin\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+

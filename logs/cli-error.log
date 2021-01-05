@@ -1,0 +1,311 @@
+2020-11-30 13:35:45 Error: [Cake\Database\Exception\MissingConnectionException] Connection to Mysql could not be established: SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver.php on line 140
+Exception Attributes: array (
+  'driver' => 'Mysql',
+  'reason' => 'SQLSTATE[HY000] [1045] Access denied for user \'my_app\'@\'localhost\' (using password: YES)',
+)
+Stack Trace:
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\CommandRunner.php:335
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- C:\wamp64\www\admin\bin\cake.php:12
+
+Caused by: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'my_app'@'localhost' (using password: YES) in C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver.php on line 132
+Stack Trace:
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver.php:132
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver.php:138
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:178
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Schema\SchemaDialect.php:47
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php:230
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Schema\Collection.php:53
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Database\Connection.php:399
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Utility\TableScanner.php:65
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:1060
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:191
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:122
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:98
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\ModelCommand.php:81
+- C:\wamp64\www\admin\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\BaseCommand.php:179
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\CommandRunner.php:335
+- C:\wamp64\www\admin\vendor\cakephp\cakephp\src\Console\CommandRunner.php:171
+- C:\wamp64\www\admin\bin\cake.php:12
+
+
+
+2020-11-30 14:29:33 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-11-30 14:29:33 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
+2020-12-01 14:49:07 Warning: Warning (2): array_filter() expects parameter 2 to be a valid callback, no array or string given in [C:\wamp64\www\admin\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+array_filter - [internal], line ??
+twig_array_filter - ROOT\vendor\twig\twig\src\Extension\CoreExtension.php, line 1591
+__TwigTemplate_54a0b473b39fbc5a8477deeb0eb4d6f3c9e6cf608bc24f04accbe8f0e850e578::doDisplay() - ROOT\vendor\twig\twig\src\Environment.php(358) : eval()'d code, line 116
+Twig\Template::displayWithErrorHandling() - ROOT\vendor\twig\twig\src\Template.php, line 394
+Twig\Template::display() - ROOT\vendor\twig\twig\src\Template.php, line 367
+Twig\Template::render() - ROOT\vendor\twig\twig\src\Template.php, line 379
+Twig\TemplateWrapper::render() - ROOT\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Cake\TwigView\View\TwigView::_evaluate() - ROOT\vendor\cakephp\twig-view\src\View\TwigView.php, line 300
+Cake\View\View::_render() - CORE\src\View\View.php, line 1134
+Bake\View\BakeView::render() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 97
+Bake\Utility\TemplateRenderer::generate() - ROOT\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Command\TemplateCommand::getContent() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 387
+Bake\Command\TemplateCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 136
+Bake\Command\AllCommand::execute() - ROOT\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Cake\Console\BaseCommand::run() - CORE\src\Console\BaseCommand.php, line 179
+Cake\Console\CommandRunner::runCommand() - CORE\src\Console\CommandRunner.php, line 335
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 171
+[main] - ROOT\bin\cake.php, line 12
+
