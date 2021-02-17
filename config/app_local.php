@@ -45,7 +45,7 @@ return [
             //'port' => 'non_standard_port_number',
 
             'username' => 'root',
-            'password' => '',
+            'password' => '123456',
 
             'database' => 'cadastro',
             /*
@@ -67,7 +67,7 @@ return [
             'host' => 'localhost',
             //'port' => 'non_standard_port_number',
             'username' => 'root',
-            'password' => '',
+            'password' => '123456',
             'database' => 'cadastro',
             //'schema' => 'myapp',
             'url' => env('DATABASE_TEST_URL', null),
